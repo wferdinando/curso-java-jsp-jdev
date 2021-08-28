@@ -15,7 +15,12 @@
 			<artifactId>postgresql</artifactId>
 			<version>42.2.23</version>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>jakarta.platform</groupId>
+            <artifactId>jakarta.jakartaee-web-api</artifactId>
+            <version>9.0.0</version>
+        </dependency>
+    </dependencies>
 	<build>
 		<plugins>
 			<plugin>
